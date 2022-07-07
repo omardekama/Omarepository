@@ -1,0 +1,9 @@
+{
+	"name": "Omar4ADF",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e1bf3b41-c499-4f81-a28d-6412f8514881",
+		"tenantId": "e2c2d10e-cef3-44e3-95e0-2305ca464104"
+	}
+}
