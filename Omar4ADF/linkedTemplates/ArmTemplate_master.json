@@ -11,13 +11,13 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Bloblink'"
 		},
-		"Customercsv_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'Customercsv'"
-		},
 		"SQLlink_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'SQLlink'"
+		},
+		"Customercsv_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Customercsv'"
 		},
 		"csv_connectionString": {
 			"type": "secureString",
@@ -53,11 +53,11 @@
 					"Bloblink_connectionString": {
 						"value": "[parameters('Bloblink_connectionString')]"
 					},
-					"Customercsv_connectionString": {
-						"value": "[parameters('Customercsv_connectionString')]"
-					},
 					"SQLlink_connectionString": {
 						"value": "[parameters('SQLlink_connectionString')]"
+					},
+					"Customercsv_connectionString": {
+						"value": "[parameters('Customercsv_connectionString')]"
 					},
 					"csv_connectionString": {
 						"value": "[parameters('csv_connectionString')]"

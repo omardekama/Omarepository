@@ -8,10 +8,10 @@
 		"Bloblink_connectionString": {
 			"value": ""
 		},
-		"Customercsv_connectionString": {
+		"SQLlink_connectionString": {
 			"value": ""
 		},
-		"SQLlink_connectionString": {
+		"Customercsv_connectionString": {
 			"value": ""
 		},
 		"csv_connectionString": {
