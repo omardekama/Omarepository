@@ -26,7 +26,7 @@
 				"source(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false,",
-				"     moveFiles: ['',''],",
+				"     moveFiles: ['','archivecsv'],",
 				"     wildcardPaths:['*.csv']) ~> source1",
 				"source1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
