@@ -23,11 +23,10 @@
 			],
 			"transformations": [],
 			"scriptLines": [
-				"source(allowSchemaDrift: false,",
+				"source(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false,",
 				"     purgeFiles: true,",
-				"     rowUrlColumn: 'FileName',",
 				"     wildcardPaths:['*.csv']) ~> source1",
 				"source1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
