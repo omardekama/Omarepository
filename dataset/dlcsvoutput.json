@@ -1,0 +1,21 @@
+{
+	"name": "dlcsvoutput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsgen2outputcsv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "outputcsv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
